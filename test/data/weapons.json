@@ -1,0 +1,35 @@
+[
+  {
+	"ID": "rock",
+	"Name": "Rock",
+	"dmg_base": 10,
+	"dmg_mult": 1,
+	"dmg_xmult": 0,
+	"def_base": 30,
+	"def_mult": 1,
+	"def_xmult": 0,
+	"dodg_lvl": 0
+  },
+  {
+	"ID": "paper",
+	"Name": "Paper",
+	"dmg_base": 5,
+	"dmg_mult": 1,
+	"dmg_xmult": 0,
+	"def_base": 10,
+	"def_mult": 1,
+	"def_xmult": 0,
+	"dodg_lvl": 12
+  },
+  {
+	"ID": "scissor",
+	"Name": "Scissor",
+	"dmg_base": 20,
+	"dmg_mult": 1,
+	"dmg_xmult": 0,
+	"def_base": 20,
+	"def_mult": 1,
+	"def_xmult": 0,
+	"dodg_lvl": 2
+  }
+]

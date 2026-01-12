@@ -8,7 +8,7 @@ const SAVE_PATH := "user://run_save.json"
 ## ----------------------------------------------------------------------
 var seed : String = ""
 var circuit_index : int = 1
-var marbles : int = 0
+var marbles : int = 5
 var rerolls_remaining : int = 4
 var inventory_slots : Array[String] = []
 
@@ -25,7 +25,7 @@ var current_hp : float = 0.0
 func start_new_run(seed_str: String) -> void:
 	seed = seed_str
 	circuit_index = 1
-	marbles = 0
+	marbles = 5
 	rerolls_remaining = 4
 	inventory_slots.clear()
 	current_hp = base_max_hp
